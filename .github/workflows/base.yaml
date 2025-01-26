@@ -24,8 +24,14 @@ jobs:
       - name: Install the project
         run: uv sync --all-extras --dev
 
+      - name: Run lint
+        run: task lint
+
+      - name: Run format check
+        run: task format-check
+
       - name: Run tests
-        run: uv run pytest tests
+        run: task test
 
       - name: Upload pytest test results
         uses: actions/upload-artifact@v4
