@@ -8,3 +8,19 @@ tasks:
   jhub:
     cmd: uv run --with jupyter jupyter lab
     desc: Run Jupyter Lab
+
+  lint:
+    cmd: uv run ruff check
+    desc: Run linter
+
+  lint-fix:
+    cmd: uv run ruff check --fix
+    desc: Run linter and fix issues
+
+  format:
+    cmd: uv run ruff
+    desc: Format code
+
+  format-check:
+    cmd: uv run ruff --check
+    desc: Check if code is formatted
