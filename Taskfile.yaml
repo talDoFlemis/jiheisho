@@ -18,9 +18,9 @@ tasks:
     desc: Run linter and fix issues
 
   format:
-    cmd: uv run ruff
+    cmd: uv run ruff format
     desc: Format code
 
   format-check:
-    cmd: uv run ruff --check
+    cmd: uv run ruff format --check
     desc: Check if code is formatted
