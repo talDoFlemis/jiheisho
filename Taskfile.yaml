@@ -1,0 +1,10 @@
+version: 3
+
+tasks:
+  test:
+    cmd: uv run pytest tests --doctest-modules --junitxml=junit/test-results.xml
+    desc: Run tests
+
+  jhub:
+    cmd: uv run --with jupyter jupyter lab
+    desc: Run Jupyter Lab
