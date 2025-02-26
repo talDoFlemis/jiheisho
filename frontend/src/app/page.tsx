@@ -317,20 +317,21 @@ export default function LandingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Dr. Sarah Chen"
+                    src="/diego.jpeg"
+                    alt="Dr. Diego Rabelo"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Dr. Sarah Chen</CardTitle>
+                  <CardTitle>Dr. Diego Rabelo</CardTitle>
                   <CardDescription>Lead AI Researcher</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
                     Specializes in computer vision and deep learning. Led the
-                    development of Sarumnesia&apos;s core classification algorithm.
+                    development of Sarumnesia&apos;s core classification
+                    algorithm.
                   </p>
                 </CardContent>
               </Card>
@@ -338,14 +339,14 @@ export default function LandingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Dr. Michael Okonjo"
+                    src="/erik.jpg"
+                    alt="Dr. Erik Bayerlein"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Dr. Michael Okonjo</CardTitle>
+                  <CardTitle>Dr. Erik Bayerlein</CardTitle>
                   <CardDescription>Senior Primatologist</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -359,14 +360,14 @@ export default function LandingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Dr. Emma Rodriguez"
+                    src="/gabriel.jpeg"
+                    alt="Dr. Antonio Gabriel"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Dr. Emma Rodriguez</CardTitle>
+                  <CardTitle>Dr. Antonio Gabriel</CardTitle>
                   <CardDescription>Conservation Specialist</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -380,14 +381,14 @@ export default function LandingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/placeholder.svg?height=200&width=200"
-                    alt="Dr. James Tanaka"
+                    src="/said.jpeg"
+                    alt="Dr. Said Rodrigues"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Dr. James Tanaka</CardTitle>
+                  <CardTitle>Dr. Said Rodrigues</CardTitle>
                   <CardDescription>Data Science Director</CardDescription>
                 </CardHeader>
                 <CardContent>
