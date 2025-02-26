@@ -24,19 +24,20 @@ type ClassificationResponse = {
 export async function classify(
 	req: ClassificationRequest,
 ): Promise<ClassificationResponse> {
-	const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-
 	try {
 		const formData = new FormData();
 		formData.append("file", req.file);
 
-		const response = await fetch(`${API_URL}/predict`, {
+		const response = await fetch("/api/classify", {
 			method: "POST",
 			body: formData,
 		});
 
 		if (!response.ok) {
-			throw new Error(`Classification failed: ${response.statusText}`);
+			const errorData = await response.json();
+			throw new Error(
+				errorData.error || `Classification failed: ${response.statusText}`,
+			);
 		}
 
 		const result = await response.json();
