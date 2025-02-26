@@ -54,7 +54,12 @@ export default function LandingPage() {
               >
                 Contact
               </Link>
-              <Button size="sm">Try Now</Button>
+              <Link
+                href="/classify"
+                className="text-sm font-medium hover:text-primary"
+              >
+                <Button size="sm">Try Now</Button>
+              </Link>
             </nav>
           </div>
         </div>
@@ -77,7 +82,12 @@ export default function LandingPage() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg">Get Started</Button>
+                  <Link
+                    href="/classify"
+                    className="text-sm font-medium hover:text-primary"
+                  >
+                    <Button size="lg">Get Started</Button>
+                  </Link>
                   <Button size="lg" variant="outline">
                     Learn More
                   </Button>
