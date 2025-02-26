@@ -4,9 +4,11 @@ import numpy as np
 from PIL import Image
 import io
 from typing import Dict
+import os
 
 app = FastAPI()
-model = tf.keras.models.load_model('../models/trained_model.keras')
+MODEL_PATH = os.getenv('MODEL_PATH', '../models/trained_model.keras')
+model = tf.keras.models.load_model(MODEL_PATH)
 IMG_SIZE = (64, 64)  # Adjust based on your model's input size
 
 PRIMATE_CLASSES = [
