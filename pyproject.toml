@@ -3,7 +3,7 @@ name = "jiheisho"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "<= 3.12"
 dependencies = [
     "keras>=3.8.0",
     "polars>=1.21.0",
@@ -27,3 +27,6 @@ line-length = 100
 quote-style = "single"
 indent-style = "tab"
 docstring-code-format = true
+
+[tool.uv.workspace]
+members = ["server"]
