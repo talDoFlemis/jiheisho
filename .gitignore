@@ -13,6 +13,4 @@ wheels/
 data/
 *.zip
 
-# Models
-models/
 *.h5
