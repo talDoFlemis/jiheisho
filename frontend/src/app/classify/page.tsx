@@ -28,19 +28,6 @@ export default function ClassifyPage() {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const monkeyClasses = [
-    "Bald Uakari",
-    "Emperor Tamarin",
-    "Golden Monkey",
-    "Gray Langur",
-    "Hamadryas Baboon",
-    "Mandril",
-    "Proboscis Monkey",
-    "Red Howler",
-    "Vervet Monkey",
-    "White Faced Saki",
-  ] as const;
-
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];
     processFile(selectedFile);

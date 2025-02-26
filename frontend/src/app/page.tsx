@@ -160,7 +160,7 @@ export default function LandingPage() {
                   <Database className="mb-2 h-6 w-6 text-primary" />
                   <CardTitle>Comprehensive Dataset</CardTitle>
                   <CardDescription>
-                    Trained on the world's largest primate image database
+                    Trained on the world&apos;s largest primate image database
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -330,7 +330,7 @@ export default function LandingPage() {
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
                     Specializes in computer vision and deep learning. Led the
-                    development of Sarumnesia's core classification algorithm.
+                    development of Sarumnesia&apos;s core classification algorithm.
                   </p>
                 </CardContent>
               </Card>
